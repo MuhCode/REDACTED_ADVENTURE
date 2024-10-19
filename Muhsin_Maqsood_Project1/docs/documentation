@@ -1,0 +1,42 @@
+----------------------------------------------------------
+        Muhsin Maqsood
+New York Institute of Technology
+         October 2024
+----------------------------------------------------------
+
+Day 1
+    Working on this project the estimated date of completion is 10/18/2024 (October 18th), the road map is currently being planned
+    This is essentially a text based adventure with the ability to move through rooms and interact with set items.
+    I currently have planned for it to be a more gloomy experience and am making the pseudocode, it will be set around a
+    constantly refreshing menu function that connects to other functions including the search, move, and quit functions.
+    These will then reference other functions to confirm movement, interact with items, and verify item locations!
+
+Day 2
+    Ok so today I sat down to code the project, essentially dedicating my day to it. I thought of using a 2d list containing
+    lists of the items in a room to actually manage the rooms and their contents for player interactiveness. This could be
+    easy to maintain but I thought too hard to implement for all rooms/items, so I will use a manual if/elif/else statement
+    to sort through the items in a room based on player inputs specifying the name of the item they want. This is just as accurate
+    as the players inputs will be verified and standardized using the .lower() function. I also just made the base functions today
+    and they work all fine, the timer also works and the succumb works. The inventory is a WIP and the 2d list idea was scrapped.
+
+Day 3
+    This day was very productive, the move function was finalized and the movement verifying function was added, this allows
+    for rooms to essentially have custom requirements to move to them, the inventory system is not developed yet but it will
+    rely on checking the inventory for a certain item and ticking a checker variable (usually its the item used to open the way
+    like a key which is after
+
+Day 4
+    A lot of flaws rose up, I finished the search action completely and added in inventory functions, I just have to make the bread
+    box rainbow puzzle, I will do that under a function called puzzlesolver(). I realized that my variables cannot work in local
+    environments which effected the usedXItem variables which I then removed from the code, I'm willing to accept that defeat as making local
+    variables would upend a lot of code and it's fine the way it is right now anyways as the descriptions still work.
+
+Day 5
+    Ok approaching the problem a bit differently I got it down, I scaled back from 4 endings to just 3 and will be continuing with that in mind
+    I also will not add more items and will be reducing overall scale so that the deadline is met, after all this project is already good and
+    big enough as well as being pretty cool. I also stopped using global functions inside the local functions and switched to using the
+    inventory system like I did with the resonating amulet item, I also introduced the random code for the breadbox puzzle which uses the
+    random module to choose the random integers for the code before combining them into one string before initialization of the program.
+    The program is basically done and now I will stop documenting and add some comments before I continue and make the report.
+    Finally last thing is that I did the reqs page and I import the sys command specifically for the wingamecond() function to end the
+    game after the player wins. END REPORT...

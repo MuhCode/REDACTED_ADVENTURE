@@ -1,0 +1,16 @@
+----------------------------------------------------------
+        Muhsin Maqsood
+New York Institute of Technology
+         October 2024
+----------------------------------------------------------
+
+Welcome to the [REDACTED] adventure game, this is a basic adventure game I made for my Comp Programming 1 class and is
+a pretty ambitious project since I have never done something of this scope before, it turned out well but notably left
+out a couple of features that I would have loved to include, this is a good working point however for many things such
+as adding battles and possibly a whole new level if I decided too. Please if playing make sure you have the reqs and
+read the tutorial as the game and actions aren't too clear and the tutorial is only a short block of text, this game is
+meant to be played at least 2-3 times and you might die a couple times, embrace death and take in the descriptions as you
+work to escape the mysterious place you are dropped into! To play just run the main.py file and enjoy!!! If you have any
+cool ideas credit my work and improve it to your liking as well as feeling free to email me or comment with improvements.
+Again, this is a beginner project and very much looks like it when analyzing the code, it is mostly clear but I know it
+could be more efficient if I started with a better plan, but again just play and enjoy.
